@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #666666;
+  color: #000000cc;
   font-family: "Jost", sans-serif;
   overflow-x: hidden;
 }
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #ae1de0, #1dc8cd 100%) ;
   color: #fff;
   border-radius: 4px 4px 0 0;
   right: 15px;
@@ -61,12 +61,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 .back-to-top:focus {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #ae1de0, #1dc8cd 50%) ;
   color: #fff;
   outline: none;
 }
 .back-to-top:hover {
-  background: #1dc8cd;
+  background: #5d25dfcc;
   color: #fff;
 }
 .back-to-top.active {
@@ -466,7 +466,7 @@ section {
   width: 60px;
   height: 3px;
   background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(45deg, #ae1de0, #1dc8cd 100%) ;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -573,7 +573,7 @@ section {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1dc8cd;
+  color: #ae1de0
 }
 #about .content ul {
   list-style: none;
@@ -617,7 +617,7 @@ section {
 }
 #features .icon i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(45deg, #ae1de0, #1dc8cd 100%) ;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -674,7 +674,8 @@ section {
 }
 #advanced-features i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(45deg, #ae1de0, #1dc8cd 100%) ;
+  /*background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);*/
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -768,7 +769,7 @@ section {
 }
 #more-features .icon i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(45deg, #ae1de0, #1dc8cd 100%) ;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -840,7 +841,7 @@ section {
 }
 #pricing h4 {
   font-size: 46px;
-  color: #1dc8cd;
+  color: rgba(93, 37, 223, 0.8);
   font-weight: 300;
 }
 #pricing h4 sup {
@@ -862,7 +863,7 @@ section {
   padding-bottom: 12px;
 }
 #pricing ul i {
-  color: #1dc8cd;
+  color: #5d25dfcc;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -878,10 +879,10 @@ section {
   font-family: "Montserrat", sans-serif;
 }
 #pricing .featured {
-  border: 2px solid #1dc8cd;
+  border: 2px solid #5d25dfcc;
 }
 #pricing .featured .get-started-btn {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #ae1de0, #1dc8cd 100%) ;
 }
 
 /* Frequently Asked Questions Section
@@ -1052,14 +1053,14 @@ section {
 #contact .social-links a {
   font-size: 18px;
   background: #fff;
-  color: #1dc8cd;
+  color: #5d25dfcc;
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #1dc8cd;
+  border: 1px solid #5d25dfcc;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1068,7 +1069,7 @@ section {
   line-height: 0;
 }
 #contact .social-links a:hover {
-  background: #1dc8cd;
+  background: #5d25dfcc;
   color: #fff;
 }
 #contact .info {
@@ -1076,7 +1077,7 @@ section {
 }
 #contact .info i {
   font-size: 32px;
-  color: #1dc8cd;
+  color: #5d25dfcc;
   float: left;
   line-height: 0;
 }
@@ -1128,7 +1129,7 @@ section {
   background-color: #1dc8cd;
 }
 #contact .php-email-form button[type=submit] {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #ae1de0, #1dc8cd 100%) ;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
